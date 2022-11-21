@@ -20,7 +20,6 @@ Membuat sistem kasir sederhana yang dapat melakukan :
 
 <h3> Penjelasan Code!</h3>
 </li><li> Class Transaction untuk mencangkup semua function program
-</li><li> Function __init__ sebagai pendefinisian sebuah atribut
 </li><li> Function calculasi memberikan user memilih untuk memasukan pesanan, menghapus pesanan, menambahkan pesanan, pengecekan pesanan atau membatalkan pesanan sesuai kode yang disediakan dan jumlah proses yang diinginkan, jika kode yang dimasukan salah maka user diminta validasi kode hingga benar dan jika ingin membatalkan proses user dapat pilih "cancel" lalu proses berhenti. data tersebut dimasukan ke dalam list yang sudah disediakan sebelumnya, kemudian list tersebut dibuat ke 
 dalam dictionary dan mengubahnya ke dalam bentuk dataframe.
 </li><li> Function delete_rows bertujuan untuk melakukan penghapusan oleh user dengan cara memilih row sesuai jumlah yang diinginkan dan bisa juga tidak dihapus. 
