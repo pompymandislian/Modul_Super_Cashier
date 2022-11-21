@@ -20,7 +20,7 @@ Membuat sistem kasir sederhana yang dapat melakukan :
 
 <h3> Penjelasan Code!</h3>
 </li><li> Modul pandas : untuk pembuatan dataframe dan Modul sys untuk membuat sistem exit program.
-</li><li> Class Transaction untuk mencangkup semua function program,
+</li><li> Class Transaction untuk mencangkup semua function program.
 <p>
    "Class Transaction(object):"
 </p>
