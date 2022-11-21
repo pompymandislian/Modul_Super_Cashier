@@ -7,19 +7,20 @@ Terdapat perusahaan supermarket besar yang terkenal di kota Malang, owner berpik
 <h3> Tujuan Pengerjaan Project (requirements) </h3>
 Membuat sistem kasir sederhana yang dapat melakukan : 
 <p>
-</li><li> Membuat inputan oleh user : nama pesanan, jumlah pesanan, dan harga pesanan 
-</li><li> Membuat inputan pengecekan pesanan oleh user : Menambahkan, mengganti, dan membatalkan pesanan
-</li><li> Mengoreksi pesanan oleh user : Menghapus 1 baris atau lebih (rows) berdasarkan index
-</li><li> Menghapus semua pesanan oleh user jika ingin dibatalkan atau memesan ulang
-</li><li> Menampilkan pesanan yang telah dibuat oleh user
-</li><li> Pengecekan diskon yang didapatkan oleh user
+</li><li> Membuat inputan oleh user : nama pesanan, jumlah pesanan, dan harga pesanan. 
+</li><li> Membuat inputan pengecekan pesanan oleh user : menambahkan, mengganti, dan membatalkan pesanan.
+</li><li> Mengoreksi pesanan oleh user : menghapus 1 baris atau lebih (rows) berdasarkan index.
+</li><li> Menghapus semua pesanan oleh user jika ingin dibatalkan atau memesan ulang.
+</li><li> Menampilkan pesanan yang telah dibuat oleh user.
+</li><li> Pengecekan diskon yang didapatkan oleh user.
 
 <h3> Alur Program / FlowChart </h3>
     <img src="images/Flowchart_1.png" width="1020" height="640" />
     <img src="images/Flowchart_2.png" width="720" height="640" />
 
 <h3> Penjelasan Code!</h3>
-</li><li> Class Transaction untuk mencangkup semua function program
+</li><li> Modul pandas : untuk pembuatan dataframe dan Modul sys untuk membuat sistem exit program.
+</li><li> Class Transaction untuk mencangkup semua function program,
 <p>
    "Class Transaction(object):"
 </p>
@@ -45,7 +46,9 @@ Jika user ingin membatalkan pesanan dapat memilih "cancel" lalu proses berhenti.
 </li><li> Function ini bertujuan untuk melihat apakah user mendapatkan diskon? proses perhitungannya jumlahkan semua kolom pada tabel(pembayaran) lalu hasil tersebut dimasukan kedalam variabel baru = Total_belanja. Jika pesanan > 200_000 maka diskon 5%, pesanan > 300_000 maka diskon 8%, dan pesanan > 500_000 diskon 10%. Perhitungannya yaitu Total harga pesanan * diskon, kemudian hasilnya di kurangkan dengan total harga sebelumnya.
 <p>
     <img src="images/code_6.PNG" width="520" height="440" />
-</p>    
+</p>
+</li><li> Pemanggilan dan menjalankan semua funtion yang ada di dalam class Transaction.
+
 
 <h3> Cara menjalankan program </h3>
 </li><li> Download semua modul python 
@@ -70,13 +73,34 @@ Jika user ingin membatalkan pesanan dapat memilih "cancel" lalu proses berhenti.
 <p>
     <img src="images/test_case1b.PNG" width="420" height="340" 
 </p> 
-    <li data-item="tab-two"> Pilihan no : Sistem akan lanjut ke proses selanjutnya
+    <li data-item="tab-two"> Pilihan no : Sistem akan lanjut ke proses selanjutnya.
     <li data-item="tab-two"> Pilihan cancel : Pesanan akan dibatalkan dan sistem akan berhenti, untuk menjalankan kembali perlu dilakukan run ulang.
 </ul>
 
-</li><li> Ketiga, sistem akan menawarkan apakah user ingin menghapus 1 baris pesanan atau tidak jika ya maka user diminta row berapa atau index berapa yang mau dihapus, jika memilih no ke proses selanjutnya
+</li><li> Ketiga, sistem akan menawarkan apakah user ingin menghapus 1 baris pesanan atau tidak jika ya maka user diminta row berapa atau index berapa yang mau dihapus, jika memilih no ke proses selanjutnya.
+<p>
+    <img src="images/test_case3.PNG" width="480" height="80" 
+</p> 
+</li><li> Keempat, Sistem akan menawarkan apakah mau menghapus semua kolom pesanan? jika ya maka kolom akan terhapus semua dan sistem akan berhenti.
+</li><li> Kelima, Sistem menawarkan apakah ingin melihat pesanan saat ini? jika ya, maka akan menampilkan data pesanan dan jika tidak maka ke proses selanjutnya.
+</li><li> keenam, Sistem akan mengkalkulasi apakah total belanja user mendapatkan diskon?.
+<p>
+    <img src="images/test_case6.PNG" width="480" height="170" 
+</p> 
 
-</li><li> Keempat, Sistem akan menawarkan apakah mau mengahapus semua kolom pesanan? jika ya maka kolom akan terhapus semua dan sistem akan berhenti
-</li><li> Kelima, Sistem menawarkan apakah ingin melihat pesanan saat ini? jika ya, maka akan menampilkan data pesanan dan jika tidak maka ke proses selanjutnya
-</li><li> keenam, Sistem akan mengkalkulasi apakah total belanja user mendapatkan diskon? 
+<h3> Kesimpulan </h3>
+Hasil pembuatan sistem Super Cashier perusahaan supermarket tersebut dapat melakukan banyak hal yaitu : 
+<p>
+</li><li> User dapat memasukan pesanan sendiri tanpa harus datang ke supermarket.
+</li><li> Penghapusan rows dan penggantian pesanan jika dilakukan lebih dari 2 kali sebaiknya gunakan kode cancel agar pesanan dapat dimulai ulang.
+</li><li> Sistem memberikan banyak pilihan untuk meminimalisir kesalahan input oleh user yaitu : pengecekan pesanan (penambahan list, menghapus pesanan, dan cancel pesanan) 
+</li><li> Untuk proses input pesanan, penambahan list, penghapusan rows dan penggantian pesanan dapat dilakukan sebanyak keinginan user karena disediakan jumlah proses yang akan dilakukan.
+</li><li> User dapat membatalkan atau memulai ulang sewaktu-waktu di setiap proses.
+</li><li> User dapat melihat pesanan setiap proses yang telah dilakukan agar meminimalisir kesalahan input.
+</li><li> Agar pemesanan a/n pemesan maka diakhir sebelum proses selesai, user diminta untuk memasukan nama.
+</li><li> Proses terakhir merupakan hasil akhir apakah user mendapatkan diskon atau tidak berdasarkan jumlah pembelian, dan sistem akan menampilkan total pembayaran akhir dan juga daftar list pesanan yang telah dibeli.
 
+<h3> Saran Perbaikan </h3>
+</li><li> Programmer perlu menambahkan daftar list item apa saja yang ada disupermarket agar user tidak melakukan banyak inputan.
+</li><li> Perlu penambahan sistem IoT agar dapat diakses melalui online dan membuat interface seperti API agar user lebih muda dalam melakukan proses order.
+</li><li> Perbaikan lainnya yang mungkin ditemukan setelah program digunakan oleh beberapa user.
