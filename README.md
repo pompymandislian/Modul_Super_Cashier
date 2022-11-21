@@ -15,8 +15,12 @@ Membuat sistem kasir sederhana yang dapat melakukan :
 </li><li> Pengecekan diskon yang didapatkan oleh user
 
 <h3> Alur Program / FlowChart </h3>
-![Flowchart](Flowchart_1.png)
-
+<center>
+    <img src="Flowchart_1.png" width="1020" height="540" />
+</center>
+<center>
+    <img src="Flowchart_2.png" width="720" height="640" />
+</center>
 
 <h3> Penjelasan Code!</h3>
 </li><li> Class Transaction untuk mencangkup semua function program
