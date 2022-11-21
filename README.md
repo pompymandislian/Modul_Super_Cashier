@@ -53,8 +53,8 @@ Jika user ingin membatalkan pesanan dapat memilih "cancel" lalu proses berhenti.
 </p>
 
 <h3> Cara menjalankan program </h3>
-</li><li> Download semua modul python 
-</li><li> Gunakan jupyter Notebook atau semacamnya yang mendukung file
+</li><li> Download semua file python yang ada di Github.
+</li><li> Gunakan jupyter Notebook atau semacamnya yang mendukung file.
 </li><li> Jika menjalankan menggunakan modul, upload modul terlebih dahulu di jupyter atau semacamnya. Kemudian ketik import transaksi dan run program untuk menjalankan. Jika menjalankan menggunakan codingan jupyter langsung run program.
 
 <h3> Hasil Test Case </h3>
