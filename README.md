@@ -14,12 +14,11 @@ Membuat sistem kasir sederhana yang dapat melakukan :
 </li><li> Menampilkan pesanan yang telah dibuat oleh user
 </li><li> Pengecekan diskon yang didapatkan oleh user
 
-<h3> Alur Program / FlowChart
+<h3> Alur Program / FlowChart </h3>
+![Blank diagram](https://user-images.githubusercontent.com/57421096/202975733-137065b6-112c-497a-a96e-f47cb296e862.png)
 
 
 <h3> Penjelasan Code!</h3>
-
-
 </li><li> Class Transaction untuk mencangkup semua function program
 </li><li> Function __init__ sebagai pendefinisian sebuah atribut
 </li><li> Function calculasi memberikan user memilih untuk memasukan pesanan, menghapus pesanan, menambahkan pesanan, pengecekan pesanan atau membatalkan pesanan sesuai kode yang disediakan dan jumlah proses yang diinginkan, jika kode yang dimasukan salah maka user diminta validasi kode hingga benar dan jika ingin membatalkan proses user dapat pilih "cancel" lalu proses berhenti. data tersebut dimasukan ke dalam list yang sudah disediakan sebelumnya, kemudian list tersebut dibuat ke 
