@@ -106,3 +106,5 @@ Hasil pembuatan sistem Super Cashier perusahaan supermarket tersebut dapat melak
 </li><li> Programmer perlu menambahkan daftar list item apa saja yang ada disupermarket agar user tidak melakukan banyak inputan.
 </li><li> Perlu penambahan sistem IoT agar dapat diakses melalui online dan membuat interface seperti API agar user lebih muda dalam melakukan proses order.
 </li><li> Perbaikan lainnya yang mungkin ditemukan setelah program digunakan oleh beberapa user.
+
+<h3> Penjelasan vidio dapat dilihat pada link dibawah ini </h3>
