@@ -47,4 +47,18 @@ Jika user ingin membatalkan pesanan dapat memilih "cancel" lalu proses berhenti.
     <img src="images/code_6.PNG" width="520" height="440" />
 </p>    
 
+<h3> Cara menjalankan program </h3>
+</li><li> Download semua modul python 
+</li><li> Gunakan jupyter Notebook atau semacamnya yang mendukung file
+</li><li> Jika menjalankan menggunakan modul, upload modul terlebih dahulu di jupyter atau semacamnya. Kemudian ketik import transaksi dan run program untuk menjalankan. Jika menjalankan menggunakan codingan jupyter langsung run program.
+
+<h3> Hasil Test Case </h3>
+</li><li> Pertama sistem akan menawarkan pada user ingin belanja berapa jenis item ?, kemudian user diminta untuk memasukan nama pesanan, jumlah, dan harga sesuai keinginan user sebelumnya yang nantinya jumlah dan harga akan dikalkulasi menjadi total pembayaran per.item
+</li><li> Kedua sistem menawarkan pengecekan ke user terdapat beberapa pilihan kode yaitu : (yes, no, Newlist, dan cancel) jika kode yang dimasukan user salah maka sistem akan meminta validasi user untuk input kode hingga benar .
+</li><li> Pilihan yes : sistem akan mengganti pesanan berdasarkan index dan berapa pesanan yang ingin diganti?
+</li><li> Pilihan no : Sistem akan lanjut ke proses selanjutnya
+</li><li> Pilihan Newlist : Sistem akan menambahkan pesanan baru sesuai permintaan user (disini dapat lebih dari 1 tambahan list).
+</li><li> Pilihan cancel : Pesanan akan dibatalkan dan sistem akan berhenti, untuk menjalankan kembali perlu dilakukan run ulang.
+
+
 
