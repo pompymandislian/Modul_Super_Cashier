@@ -47,8 +47,10 @@ Jika user ingin membatalkan pesanan dapat memilih "cancel" lalu proses berhenti.
 <p>
     <img src="images/code_6.PNG" width="520" height="440" />
 </p>
-</li><li> Pemanggilan dan menjalankan semua funtion yang ada di dalam class Transaction.
-
+</li><li> Pemanggilan dan menjalankan semua function yang ada di dalam class Transaction.
+<p>
+    <img src="images/code_7.PNG" width="320" height="240" />
+</p>
 
 <h3> Cara menjalankan program </h3>
 </li><li> Download semua modul python 
