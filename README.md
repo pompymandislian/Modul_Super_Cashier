@@ -20,11 +20,31 @@ Membuat sistem kasir sederhana yang dapat melakukan :
 
 <h3> Penjelasan Code!</h3>
 </li><li> Class Transaction untuk mencangkup semua function program
-</li><li> Function calculasi memberikan user memilih untuk memasukan pesanan, menghapus pesanan, menambahkan pesanan, pengecekan pesanan atau membatalkan pesanan sesuai kode yang disediakan dan jumlah proses yang diinginkan, jika kode yang dimasukan salah maka user diminta validasi kode hingga benar dan jika ingin membatalkan proses user dapat pilih "cancel" lalu proses berhenti. data tersebut dimasukan ke dalam list yang sudah disediakan sebelumnya, kemudian list tersebut dibuat ke 
-dalam dictionary dan mengubahnya ke dalam bentuk dataframe.
+<p>
+   "Class Transaction(object):"
+</p>
+</li><li> Function calculasi memberikan user memilih untuk memasukan pesanan, menghapus pesanan, menambahkan pesanan, pengecekan pesanan atau membatalkan pesanan sesuai kode yang disediakan dan jumlah proses yang diinginkan, jika kode yang dimasukan salah maka user diminta validasi kode hingga benar dan jika ingin membatalkan proses user dapat pilih "cancel" lalu proses berhenti. data tersebut dimasukan ke dalam list yang sudah disediakan sebelumnya, kemudian list tersebut dibuat ke dalam dictionary dan mengubahnya ke dalam bentuk dataframe.
+<p>
+    <img src="images/code_2.PNG" width="520" height="440" />
+<p> 
+    <img src="images/code_2a.PNG" width="520" height="440" />
+</p>
 </li><li> Function delete_rows bertujuan untuk melakukan penghapusan oleh user dengan cara memilih row sesuai jumlah yang diinginkan dan bisa juga tidak dihapus. 
 Jika user ingin membatalkan pesanan dapat memilih "cancel" lalu proses berhenti.
+<p>
+    <img src="images/code_3.PNG" width="520" height="440" />
+</p>
 </li><li> Function reset yang bertujuan untuk reset semua pesanan dan automatis proses berhenti.
+<p>
+    <img src="images/code_4.PNG" width="520" height="440" />
+</p>    
 </li><li> Function ini kelanjutan dari function sebelumnya yang bertujuan untuk melihat pesanan user yang telah dibuat.
+<p>
+    <img src="images/code_5.PNG" width="520" height="440" />
+</p>    
 </li><li> Function ini bertujuan untuk melihat apakah user mendapatkan diskon? proses perhitungannya jumlahkan semua kolom pada tabel(pembayaran) lalu hasil tersebut dimasukan kedalam variabel baru = Total_belanja. Jika pesanan > 200_000 maka diskon 5%, pesanan > 300_000 maka diskon 8%, dan pesanan > 500_000 diskon 10%. Perhitungannya yaitu Total harga pesanan * diskon, kemudian hasilnya di kurangkan dengan total harga sebelumnya.
+<p>
+    <img src="images/code_6.PNG" width="520" height="440" />
+</p>    
+
 
