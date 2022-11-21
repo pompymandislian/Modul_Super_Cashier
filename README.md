@@ -39,7 +39,7 @@ Jika user ingin membatalkan pesanan dapat memilih "cancel" lalu proses berhenti.
 <p>
     <img src="images/code_4.PNG" width="520" height="440" />
 </p>    
-</li><li> Function ini kelanjutan dari function sebelumnya yang bertujuan untuk melihat pesanan user yang telah dibuat.
+</li><li> Function cek_out bertujuan untuk melihat pesanan user yang telah dibuat.
 <p>
     <img src="images/code_5.PNG" width="520" height="440" />
 </p>    
