@@ -53,22 +53,26 @@ Jika user ingin membatalkan pesanan dapat memilih "cancel" lalu proses berhenti.
 </li><li> Jika menjalankan menggunakan modul, upload modul terlebih dahulu di jupyter atau semacamnya. Kemudian ketik import transaksi dan run program untuk menjalankan. Jika menjalankan menggunakan codingan jupyter langsung run program.
 
 <h3> Hasil Test Case </h3>
-</li><li> Pertama sistem akan menawarkan pada user ingin belanja berapa jenis item ?, kemudian user diminta untuk memasukan nama pesanan, jumlah, dan harga sesuai keinginan user sebelumnya yang nantinya jumlah dan harga akan dikalkulasi menjadi total pembayaran per.item
+<ul></li><li> Pertama sistem akan menawarkan pada user ingin belanja berapa jenis item ?, kemudian user diminta untuk memasukan nama pesanan, jumlah, dan harga sesuai keinginan user sebelumnya yang nantinya jumlah dan harga akan dikalkulasi menjadi total pembayaran per.item
 <p>
     <img src="images/test_case1.PNG" width="420" height="340" />
 </p> 
 </li><li> Kedua sistem menawarkan pengecekan ke user terdapat beberapa pilihan kode yaitu : (yes, no, Newlist, dan cancel) jika kode yang dimasukan user salah maka sistem akan meminta validasi user untuk input kode hingga benar .
-</li><li> Pilihan yes : sistem akan mengganti pesanan berdasarkan index dan berapa pesanan yang ingin diganti? Disini user diminta memilih index yang ingin dihapus terlebih dahulu lalu input pesanan baru dan index yang dimasukan dimulai dari index terbesar hingga terkecil.
 <p>
-    <img src="images/test_case1a.PNG" width="420" height="340" />
-</p> 
+    <img src="images/tes_case1b.PNG" width="420" height="200" />
+ 
+<ul id="tabbar"> 
+    <li data-item="tab-one tab-active" data-initial="true"> Pilihan yes : sistem akan mengganti pesanan berdasarkan index dan berapa pesanan yang ingin             diganti? Disini user diminta memilih index yang ingin dihapus terlebih dahulu lalu input pesanan baru dan index yang dimasukan dimulai dari index terbesar           hingga terkecil.
 <p>
-    <img src="images/tes_case1b.PNG" width="320" height="140" />
+    <img src="images/test_case1a.PNG" width="420" height="340" 
+</p>
+    <li data-item="tab-two"> Pilihan Newlist : Sistem akan menambahkan pesanan baru sesuai permintaan user (disini dapat lebih dari 1 tambahan list).
+<p>
+    <img src="images/test_case1b.PNG" width="420" height="340" 
 </p> 
-</li><li> Pilihan no : Sistem akan lanjut ke proses selanjutnya
-</li><li> Pilihan Newlist : Sistem akan menambahkan pesanan baru sesuai permintaan user (disini dapat lebih dari 1 tambahan list).
+    <li data-item="tab-two"> Pilihan no : Sistem akan lanjut ke proses selanjutnya
+    <li data-item="tab-two"> Pilihan cancel : Pesanan akan dibatalkan dan sistem akan berhenti, untuk menjalankan kembali perlu dilakukan run ulang.
+</ul>
 
-</li><li> Pilihan cancel : Pesanan akan dibatalkan dan sistem akan berhenti, untuk menjalankan kembali perlu dilakukan run ulang.
-
-
+</li><li> Ketiga sistem akan menawarkan apakah user ingin menghapus 1 baris pesanan atau tidak jika ya maka user diminta row berapa atau index berapa yang mau dihapus, jika memilih no ke proses selanjutnya
 
