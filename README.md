@@ -4,7 +4,7 @@ Super Cashier Sederhana yang dibuat menggunakan bahasa pemerograman python
 <h3> Latar Belakang Problem </h3>
 Terdapat perusahaan supermarket besar yang terkenal di kota Malang, owner berpikir untuk memperluas marketnya dengan memudahkan pelanggannya agar tidak perlu langsung datang ke supermarket untuk membeli produknya. Owner perusahaan ingin meningkatkan perusahaannya dengan cara membuat sistem kasir yang lebih modern dan nantinya customer dapat membeli barang tersebut dari jarak jauh. Owner berkeinginan customer dapat memasukan nama pesanan, jumlah pesanan, dan harga pesanan. Maka owner tersebut mencari programmer untuk membuatkan sistem yang disebut "self-service" agar keinginannya tercapai. Dari latar belakang problem tersebut maka project ini dibuat untuk kebutuhan supermarket.
 
-<h3> Tujuan Pengerjaan Project (requirements) </h3>
+<h3> Tujuan Pengerjaan Project </h3>
 Membuat sistem kasir sederhana yang dapat melakukan : 
 <p>
 </li><li> Membuat inputan oleh user : nama pesanan, jumlah pesanan, dan harga pesanan. 
@@ -18,7 +18,7 @@ Membuat sistem kasir sederhana yang dapat melakukan :
     <img src="images/Flowchart_1.png" width="1020" height="640" />
     <img src="images/Flowchart_2.png" width="720" height="640" />
 
-<h3> Penjelasan Code!</h3>
+<h3> Penjelasan Code (requirements) </h3>
 </li><li> Modul pandas : untuk pembuatan dataframe dan Modul sys untuk membuat sistem exit program.
 </li><li> Class Transaction untuk mencangkup semua function program.
 <p>
