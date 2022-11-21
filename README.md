@@ -74,5 +74,9 @@ Jika user ingin membatalkan pesanan dapat memilih "cancel" lalu proses berhenti.
     <li data-item="tab-two"> Pilihan cancel : Pesanan akan dibatalkan dan sistem akan berhenti, untuk menjalankan kembali perlu dilakukan run ulang.
 </ul>
 
-</li><li> Ketiga sistem akan menawarkan apakah user ingin menghapus 1 baris pesanan atau tidak jika ya maka user diminta row berapa atau index berapa yang mau dihapus, jika memilih no ke proses selanjutnya
+</li><li> Ketiga, sistem akan menawarkan apakah user ingin menghapus 1 baris pesanan atau tidak jika ya maka user diminta row berapa atau index berapa yang mau dihapus, jika memilih no ke proses selanjutnya
+
+</li><li> Keempat, Sistem akan menawarkan apakah mau mengahapus semua kolom pesanan? jika ya maka kolom akan terhapus semua dan sistem akan berhenti
+</li><li> Kelima, Sistem menawarkan apakah ingin melihat pesanan saat ini? jika ya, maka akan menampilkan data pesanan dan jika tidak maka ke proses selanjutnya
+</li><li> keenam, Sistem akan mengkalkulasi apakah total belanja user mendapatkan diskon? 
 
