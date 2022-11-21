@@ -15,7 +15,7 @@ Membuat sistem kasir sederhana yang dapat melakukan :
 </li><li> Pengecekan diskon yang didapatkan oleh user
 
 <h3> Alur Program / FlowChart </h3>
-![Profile ico](images/Flowchart_1.png)
+![Flowchart](Flowchart_1.png)
 
 
 <h3> Penjelasan Code!</h3>
