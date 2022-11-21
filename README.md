@@ -99,7 +99,7 @@ Hasil pembuatan sistem Super Cashier perusahaan supermarket tersebut dapat melak
 </li><li> Untuk proses input pesanan, penambahan list, penghapusan rows dan penggantian pesanan dapat dilakukan sebanyak keinginan user karena disediakan jumlah proses yang akan dilakukan.
 </li><li> User dapat membatalkan atau memulai ulang sewaktu-waktu di setiap proses.
 </li><li> User dapat melihat pesanan setiap proses yang telah dilakukan agar meminimalisir kesalahan input.
-</li><li> Agar pemesanan a/n pemesan maka diakhir sebelum proses selesai, user diminta untuk memasukan nama.
+</li><li> Agar pemesanan terdapat a/n pemesan, maka diakhir sebelum proses selesai user diminta untuk memasukan nama.
 </li><li> Proses terakhir merupakan hasil akhir apakah user mendapatkan diskon atau tidak berdasarkan jumlah pembelian, dan sistem akan menampilkan total pembayaran akhir dan juga daftar list pesanan yang telah dibeli.
 
 <h3> Saran Perbaikan </h3>
