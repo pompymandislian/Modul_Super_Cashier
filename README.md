@@ -108,3 +108,4 @@ Hasil pembuatan sistem Super Cashier perusahaan supermarket tersebut dapat melak
 </li><li> Perbaikan lainnya yang mungkin ditemukan setelah program digunakan oleh beberapa user.
 
 <h3> Penjelasan vidio dapat dilihat pada link dibawah ini </h3>
+https://www.youtube.com/watch?v=Nq7DoYaTv18
